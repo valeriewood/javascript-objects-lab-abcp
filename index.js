@@ -1,19 +1,22 @@
-var recipe = { 
+
+ var recipe = { 
   title: 'Bootcamp Prep',
   description: 'Sophie'
 };
-recipe;
 
- var updateObjectWithKeyAndValue = {prop: 1};
  
-var newObj = Object.assign({}, recipe, updateObjectWithKeyAndValue);
+myRecip;
+  
+
+ 
+var newObj = Object.assign({}, recipe, {description: "Sophie DeBenedetto"});
  
 newObj;
 
 
- 
-delete newObj.foo // true
+ delete newObj["Bootcamp Prep"];
+
  
 newObj // {}
  
-obj // { foo: 'bar' }
+Object.assign({}, course, {description: "Introduction to JS"});
